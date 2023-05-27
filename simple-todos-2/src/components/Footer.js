@@ -60,11 +60,11 @@ export default function Footer() {
                     }`}
                     onClick={() => handleStatusChange("Complete")}
                 >
-                    Complete 
+                    Complete
                 </li>
                 <li></li>
                 <li></li>
-                <li
+                {/* <li
                     className={`h-3 w-3 border-2 border-green-500 md:hover:bg-green-500 rounded-full cursor-pointer ${
                         colors.includes("green") && "bg-green-500"
                     }`}
@@ -81,7 +81,7 @@ export default function Footer() {
                         colors.includes("yellow") && "bg-yellow-500"
                     }`}
                     onClick={() => handleColorChange("yellow")}
-                ></li>
+                ></li> */}
             </ul>
         </div>
     );
